@@ -15,9 +15,7 @@ int DemCH(char s[],char ch[]) {
                                                 dem++;
 
                                     }
-
                         }
-
             }
 
             if(ch[0] >='A' && ch[0] <= 'Z') {
@@ -27,11 +25,8 @@ int DemCH(char s[],char ch[]) {
                                     if(s[i] == ch[0] || s[i] == ch[0] + 32) {
 
                                                 dem++;
-
                                     }
-
                         }
-
             }
 
             printf("Ky tu: %c xuat hien %d lan trong chuoi: %s",ch[0],dem,s);
